@@ -24,11 +24,10 @@ Chart lengkap ada di folder `images/` dan di dalam notebook.
 
 ## Data
 
-- Sumber: Nvidia GPU Sales Data 2026 di Kaggle (data sintetis). Link: [isi link Kaggle di sini]
+- Sumber: Nvidia GPU Sales Data 2026 di Kaggle (data sintetis). Link: https://www.kaggle.com/datasets/uditjain13/nvidia-gpu-sales-synthetic-2026
 - 7.000 baris, 17 kolom, periode 12 Januari 2024 sampai 29 Juni 2026.
 - Satu baris adalah satu transaksi: model GPU, wilayah, channel, segmen pelanggan, jumlah unit, harga, status stok, skor kepuasan, dan pendapatan.
 
-File CSV tidak saya sertakan di repo. Unduh dari Kaggle, ubah namanya menjadi `nvidia_gpu_sales_synthetic_2026.csv`, lalu taruh di folder yang sama dengan notebook.
 
 ## Cara menjalankan
 
@@ -59,4 +58,3 @@ nvidia-gpu-sales-eda/
 - Tidak ada data biaya atau margin, jadi tidak bisa dipastikan model mana yang paling menguntungkan.
 - Pendapatan add-on tidak tercatat terpisah.
 - Penjualan Juni 2026 lebih rendah dari bulan sebelumnya, tetapi belum bisa dipastikan apakah itu penurunan nyata atau data yang belum lengkap.
-- Semua hubungan yang ditemukan adalah asosiasi, bukan sebab-akibat.
