@@ -1,8 +1,8 @@
-# Analisis Penjualan GPU Nvidia (EDA)
+# Exploratory Data Analysis (EDA) GPU NVIDIA Sales
 
 Analisis eksplorasi atas 7.000 transaksi penjualan GPU Nvidia, Januari 2024 sampai Juni 2026. Saya ingin tahu dari mana pendapatan datang, bagaimana trennya dari bulan ke bulan, dan apa hubungan status stok dengan harga jual dan kepuasan pelanggan.
 
-Datanya sintetis (hasil simulasi, bukan data perusahaan), jadi proyek ini adalah latihan EDA, bukan kesimpulan tentang pasar Nvidia yang sebenarnya.
+Note: Data sintetis, jadi project ini adalah latihan EDA, bukan kesimpulan tentang pasar Nvidia yang sebenarnya.
 
 ## Pertanyaan
 
@@ -24,7 +24,7 @@ Chart lengkap ada di folder `images/` dan di dalam notebook.
 
 ## Data
 
-- Sumber: Nvidia GPU Sales Data 2026 di Kaggle (data sintetis). Link: https://www.kaggle.com/datasets/uditjain13/nvidia-gpu-sales-synthetic-2026
+- Sumber: Nvidia GPU Sales Data 2026 di Kaggle. Link: https://www.kaggle.com/datasets/uditjain13/nvidia-gpu-sales-synthetic-2026
 - 7.000 baris, 17 kolom, periode 12 Januari 2024 sampai 29 Juni 2026.
 - Satu baris adalah satu transaksi: model GPU, wilayah, channel, segmen pelanggan, jumlah unit, harga, status stok, skor kepuasan, dan pendapatan.
 
@@ -57,4 +57,4 @@ nvidia-gpu-sales-eda/
 - Datanya sintetis. Beberapa pola menunjukkan data dibuat dengan aturan, misalnya jumlah unit per transaksi tidak berubah walau stok langka, dan Retail/Etail hanya menjual GPU konsumen.
 - Tidak ada data biaya atau margin, jadi tidak bisa dipastikan model mana yang paling menguntungkan.
 - Pendapatan add-on tidak tercatat terpisah.
-- Penjualan Juni 2026 lebih rendah dari bulan sebelumnya, tetapi belum bisa dipastikan apakah itu penurunan nyata atau data yang belum lengkap.
+- Penjualan Juni 2026 lebih rendah dari bulan sebelumnya, tetapi belum bisa dipastikan apakah itu penurunan atau data yang belum lengkap.
